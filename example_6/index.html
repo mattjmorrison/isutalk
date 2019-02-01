@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+  <title>Hello World</title>
+</head>
+<body>
+  <div>Hey Everyone</div>
+  <a href="#one">One</a>
+  <a href="#two">Two</a>
+  <a href="#three">Three</a>
+  <div id="output">Here is the page content</div>
+  <script>
+    var content = {
+      '#one': 'This is page one',
+      '#two': 'this is page two',
+      '#three': 'this is page three',
+    };
+    window.onhashchange = function() {
+      document.querySelector('#output').innerHTML = content[document.location.hash];
+    };
+  </script>
+</body>
+</html>
+
