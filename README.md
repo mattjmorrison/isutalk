@@ -1,6 +1,5 @@
 # ISU Talk
 
-
 ## Introduction
 
 - Matt Morrison
@@ -11,18 +10,18 @@
 
 ## Evolution of the web: from a web page to an application platform
 
-- Example 1: share static documents
+- Example 1:
   - linking to other documents
   - linking within a document
 - Example 2:
-  - forms
+  - html form & server
 - Example 3:
-  - javascript modify page
+  - javascript modifying a page
 - Example 4:
-  - ajax
+  - ajax & server & modifying a page
 - Example 5:
   - render pages with javascript
 - Example 6:
-  - render pages with javascript on hash
+  - render pages with javascript on url
 - Example 7:
   - ember.js

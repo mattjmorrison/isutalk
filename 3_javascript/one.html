@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+  <title></title>
+</head>
+<body>
+  <form id="form">
+    <input type="text" id="input" />
+  </form>
+  <div id="output"></div>
+  <script>
+    document.querySelector('#form').onsubmit = function(e) {
+      document.querySelector('#output').innerHTML = document.querySelector('#input').value;
+      e.preventDefault();
+    };
+  </script>
+</body>
+</html>
