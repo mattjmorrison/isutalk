@@ -2,24 +2,22 @@
 <html lang=en>
 <head>
 <meta charset=utf-8>
-  <title>Hello World</title>
+  <title>routing</title>
 </head>
 <body>
-  <div>Hey Everyone</div>
-  <a href="#one">One</a>
-  <a href="#two">Two</a>
-  <a href="#three">Three</a>
-  <div id="output">Here is the page content</div>
+  <a href="#one">one</a>
+  <a href="#two">two</a>
+  <a href="#three">three</a>
+  <div id="output">Output</div>
   <script>
-    var content = {
-      '#one': 'This is page one',
-      '#two': 'this is page two',
-      '#three': 'this is page three',
-    };
+    var data = {
+      '#one': 'This is one',
+      '#two': 'number two',
+      '#three': 'number five????'
+    }
     window.onhashchange = function() {
-      document.querySelector('#output').innerHTML = content[document.location.hash];
-    };
+      document.querySelector('#output').innerHTML = document.location.hash;
+    }
   </script>
 </body>
 </html>
-

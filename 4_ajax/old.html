@@ -2,22 +2,23 @@
 <html lang=en>
 <head>
 <meta charset=utf-8>
-  <title>ajax</title>
+  <title>Example</title>
 </head>
 <body>
   <form id="form">
-    <input id="data" />
+    First: <input id="first" />
   </form>
-  <div id="output">Output Here</div>
+  <div id="output">Hello</div>
   <script>
-    document.querySelector('#form').onsubmit = function(e) {
+    document.querySelector('#form').onsubmit = function(event) {
+      document.querySelector('#output').innerHTML = document.querySelector('#first').value;
       var oReq = new XMLHttpRequest();
       oReq.addEventListener("load", function() {
         document.querySelector('#output').innerHTML = this.responseText;
       });
       oReq.open("POST", "http://localhost:8000");
       oReq.send();
-      e.preventDefault();
+      event.preventDefault();
     }
   </script>
 </body>
