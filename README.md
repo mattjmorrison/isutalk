@@ -4,7 +4,7 @@
 
 - Matt Morrison
 - IT Manager for IMT Computer Services - team writes software for mutual insurance companies across the US
-- Began in 2004 as a software developer - still write a lot of code day to doy in addition to managing team of 8
+- Began in 2004 as a software developer - still write a lot of code day to day in addition to managing team of 8
 - Mainframe development in COBOL and JCL, desktop development in VB and Java, web development in Java, Perl, Ruby, Python, JavaScript
 
 ## Topic
