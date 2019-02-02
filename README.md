@@ -15,8 +15,10 @@
 - Building up to development of a single page app using Ember.js
 
 - Example 1:
-  - linking to other documents
+  - Basic formatting
   - linking within a document
+  - linking to other documents
+  - linking to specific part of other document
 - Example 2:
   - html form & server
 - Example 3:
