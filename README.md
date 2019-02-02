@@ -13,6 +13,7 @@
 ## Summary
 - Some history of the web
 - Building up to development of a single page app using Ember.js
+- The web is now a platform that allows you to have an entire application running in the browser and sending/receiving data to/from servers via API
 
 - Example 1:
   - Basic formatting
