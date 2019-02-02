@@ -31,3 +31,4 @@
   - render pages with javascript on url
 - Example 7:
   - ember.js
+  - route (people)
