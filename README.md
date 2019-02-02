@@ -31,4 +31,9 @@
   - render pages with javascript on url
 - Example 7:
   - ember.js
-  - route (people)
+    - show how routing is being used
+    - show how actions hijack default behavior
+    - show how templates are changing contents of page without refreshing
+    - show how ajax requests are being made automatically
+  - list of people
+  - edit a person
