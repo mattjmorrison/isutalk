@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+  <title></title>
+</head>
+<body>
+  <form id="form">
+    <input type="text" id="one" />
+  </form>
+  <div id="output"></div>
+  <script>
+    document.querySelector('#form').onsubmit = function(e) {
+      var oReq = new XMLHttpRequest();
+      oReq.addEventListener("load", function() {
+        document.querySelector('#output').innerHTML = this.responseText;
+      });
+      oReq.open("POST", "http://localhost:8000");
+      oReq.send();
+      e.preventDefault();
+    };
+  </script>
+</body>
+</html>
