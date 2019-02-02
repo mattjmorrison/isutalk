@@ -11,7 +11,7 @@
 ### Evolution of the web: from a web page to an application platform
 
 ## Summary
-- Some history of the internet
+- Some history of the web
 - Building up to development of a single page app using Ember.js
 
 - Example 1:
