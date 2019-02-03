@@ -25,11 +25,11 @@
 - Example 3:
   - javascript modifying a page
 - Example 4:
-  - ajax & server & modifying a page
-- Example 5:
   - render pages with javascript
-- Example 6:
+- Example 5:
   - render pages with javascript on url
+- Example 6:
+  - ajax & server & modifying a page
 - Example 7:
   - ember.js
     - show how routing is being used
