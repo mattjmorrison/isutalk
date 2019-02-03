@@ -11,9 +11,12 @@
 ### Evolution of the web: from a web page to an application platform
 
 ## Summary
-- Some history of the web
-- Building up to development of a single page app using Ember.js
+- Demonstrate some evolutionary building blocks of the web
+- Building up to development of a modern single page app using Ember.js
 - The web is now a platform that allows you to have an entire application running in the browser and sending/receiving data to/from servers via API
+
+
+## Examples
 
 - Example 1:
   - Basic formatting
