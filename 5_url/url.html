@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+  <title>render</title>
+</head>
+<body>
+  <a href="#one">one</a>
+  <a href="#two">two</a>
+  <a href="#three">three</a>
+  <div id="output"></div>
+  <script>
+    var data = {
+      '#one': 'This is the content for one',
+      '#two': 'This is the content for two',
+      '#three': 'This is the content for three',
+    };
+    window.onhashchange = function(){
+      document.querySelector('#output').innerHTML = data[document.location.hash];
+    };
+  </script>
+</body>
+</html>

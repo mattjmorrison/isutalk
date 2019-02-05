@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+  <title>render</title>
+</head>
+<body>
+  <button id="one">one</button>
+  <button id="two">two</button>
+  <button id="three">three</button>
+  <div id="output">alsdkfjasldkfja sldfkja sd</div>
+  <script>
+    document.querySelector('#one').onclick = function(){
+      document.querySelector('#output').innerHTML = 'This is the content for one';
+    }
+    document.querySelector('#two').onclick = function(){
+      document.querySelector('#output').innerHTML = 'This is the content for two';
+    }
+    document.querySelector('#three').onclick = function(){
+      document.querySelector('#output').innerHTML = 'This is the content for three';
+    }
+  </script>
+</body>
+</html>

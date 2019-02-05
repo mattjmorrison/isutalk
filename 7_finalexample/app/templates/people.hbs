@@ -1,0 +1,9 @@
+<h2>People</h2>
+
+{{#each model as |person|}}
+  <div>
+  {{#link-to "edit-person" person}}
+    {{person.first}} {{person.last}}
+  {{/link-to}}
+  </div>
+{{/each}}

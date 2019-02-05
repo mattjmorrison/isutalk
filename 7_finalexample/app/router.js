@@ -7,6 +7,11 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('people');
+
+  this.route('edit-person', {
+    path: '/people/:id'
+  });
 });
 
 export default Router;
